@@ -10,7 +10,7 @@ export default function Card({result}) {
         <Image src={`https://image.tmdb.org/t/p/original/${result.poster_path}`}
         width={500} height={300} className="sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300" />
       </Link>
-      <h2 className='text-lg truncate'>{result.name}</h2>
+      <h2 className='text-lg truncate'>{result.title}</h2>
       <p>⭐ {Number(result.vote_average).toFixed(2)}</p>
     </div>
   )

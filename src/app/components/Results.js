@@ -29,8 +29,9 @@ export default function Results({results}) {
         },
     ],
     }
+    
   return (
-    <div className='mx-w-5xl max-auto py-5 w-full '>
+    <div className='mx-w-5xl max-auto py-5 w-full'>
     <Slider {...settings}>
       {results.map((result) => (
             <div key={result.id} className=''>
