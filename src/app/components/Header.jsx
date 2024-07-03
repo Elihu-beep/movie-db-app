@@ -9,8 +9,6 @@ export default function Header() {
       </div>
       <div className='flex gap-4'>
         <MenuItem title="HOME" address="/" />
-        <MenuItem title="MOVIES" address="/" />
-        <MenuItem title="TV SHOWS" address="/" />
         <MenuItem title="ABOUT" address="/" />
       </div>
     </div>
