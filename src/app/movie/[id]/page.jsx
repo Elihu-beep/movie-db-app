@@ -28,20 +28,23 @@ export default async function Media({params}) {
             />
           </div>
           <div className='w-64 p-5 flex flex-col items-center'>
-            <div className='text-red-600 mb-3 font-bold'>
+            <div className='text-red-600 mb-3 font-bold sm:text-base text-sm'>
               {media.original_title}
             </div>
-            <div className='mb-4 min-h-60 ml-5'>
+            <div className='mb-4 min-h-60 ml-5 sm:text-base text-sm'>
               {media.overview}
             </div>
-            <div className='mb-3 font-medium'>
+            <div className='mb-3 font-medium sm:text-base text-sm'>
               Release Date: {media.release_date}
             </div>
-            <div className='mb-2 font-medium'>
+            <div className='mb-2 font-medium sm:text-base text-sm'>
               Rating: ⭐ {Number(media.vote_average).toFixed(2)}
             </div>
             {trailerUrl && (
             <div className='mt-10 mr-60'>
+            <div className='mb-2 font-medium sm:text-lg text-sm'>
+              Trailer
+            </div>
             <iframe 
               width="560" 
               height="315" 

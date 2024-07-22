@@ -40,15 +40,15 @@ export default async function page() {
     return (
       <div className='p-8 max-w-5xl items-center mx-auto'>
         <div>
-          <span className='text-xl font-semibold text-red-500'>| </span><span className='text-xl font-medium'>CURRENTLY POPULAR TV</span>
+          <span className='sm:text-xl text-base font-semibold text-red-500'>| </span><span className='sm:text-xl text-base font-medium'>CURRENTLY POPULAR TV</span>
           <Results results={tvResults} />
         </div>
         <div className='py-10'>
-          <span className='text-xl font-semibold text-red-500'>| </span><span className='text-xl font-medium'>CURRENTLY POPULAR MOVIES</span>
+          <span className='sm:text-xl text-base font-semibold text-red-500'>| </span><span className='sm:text-xl text-base font-medium'>CURRENTLY POPULAR MOVIES</span>
           <Results results={movieResults} />
         </div>
         <div className='py-10'>
-          <span className='text-xl font-semibold text-red-500'>| </span><span className='text-xl font-medium'>HIGHEST RATED MOVIES</span>
+          <span className='sm:text-xl text-base font-semibold text-red-500'>| </span><span className='sm:text-xl text-base font-medium'>HIGHEST RATED MOVIES</span>
           <Results results={highestRatedResults} />
         </div>
       </div>
