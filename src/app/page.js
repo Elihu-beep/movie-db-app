@@ -1,5 +1,5 @@
 import React from 'react'
-import Results from './components/Results'
+import Results from '../components/Results'
 
 const urls = {
   upcoming: 'https://api.themoviedb.org/3/movie/upcoming?language=en-US&page=1',

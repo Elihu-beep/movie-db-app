@@ -13,7 +13,7 @@ export default function Header() {
     </form>
       <div className='flex sm:gap-4'>
         <MenuItem title="HOME" address="/" />
-        <MenuItem title="ABOUT" address="/" />
+        <MenuItem title="ABOUT" address="/about" />
       </div>
     </div>
   )
